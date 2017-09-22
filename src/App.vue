@@ -43,25 +43,24 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- max-width: 980px;
+  max-width: 980px;
 	margin: 0 auto;
 }
 body{
 	margin: 0!important;
 }
-
+ul{overflow: hidden;}
+li{float: left;list-style: none;}
 .header .icon{	
 	cursor: pointer;
 }
 .header .title-ul{
-	overflow: hidden;
 	display: inline-block;
 	white-space: nowrap;
 	width: 100%;
 	margin: 2px auto;
 }
 .title-ul li{
-	float: left;
 	text-align: center;
 	width: 30%;
 	list-style: none;
